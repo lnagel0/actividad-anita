@@ -1,0 +1,94 @@
+html {
+    background: url("https://i.pinimg.com/736x/97/ce/a7/97cea7e15201dc807d266908c4d911b1.jpg");
+    background-size: cover;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+
+    font-family: "Sofia", sans-serif;
+
+}
+
+a {
+    font-size: 25px;
+    color: #1C2833;
+}
+
+h1 {
+    text-shadow: 2px 2px #646464;
+    color: #1C2833;
+}
+
+ul {
+    color: #1C2833;
+}
+
+p {
+    font-size: 20px;
+}
+
+body {
+    display: flex;
+    align-content: center;
+    flex-direction: column;
+}
+
+#cabecera {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+
+    font-size: 30px;
+}
+
+#menu {
+    padding-top: 20px;
+    align-self: center;
+}
+
+#izquierdaDerecha {
+    display: flex;
+    flex-direction: row;
+    padding-top: 40px;
+    font-size: 25px;
+}
+
+#izquierda {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+#derecha {
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+
+.opciones {
+    padding: 20px;
+    font-size: 30px;
+}
+
+#divisor {
+    width:100%;
+    text-align:left;
+    margin-top: 42px;
+}
+
+#pie {
+    display: flex;
+    flex-direction: row;
+    align-self: center;
+}
+
+.pieElementos {
+    padding: 10px;
+
+}
+
+#nombreCabecera {
+    padding-left: 15px;
+}
