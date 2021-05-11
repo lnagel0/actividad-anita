@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+FORMULARIO DE CONSULTA
+
+<body>
+    
+
+  <form action="mailto:atropeano@murialdo.edu.ar" method="post" enctype="text/plain">
+  
+  <!--input type  -->
+ Ingrese aquí su nombre :
+  <input type="text" name="Nombre">
+  <br>
+  Ingrese su contraseña:
+    <!--input type para contraseña  -->
+  <input type = "password" name="contra" >
+  <br>
+  <!--cuadro de texto  -->
+  <textarea name="comentario" rows="10" cols="40">Escribe tu comentario....</textarea>
+
+ 
+ <!--lista desplegable  -->
+  <select name="Opciones">
+    <option value = "Hardware">Hardware</option>
+    <option value = "Sistemas Operativos">Sistemas Operativos</option>
+    <option value ="Programación">Programación</option>
+    <option value= "Redes">Redes</option>
+    </select>
+    <br>
+
+
+   <!--opciones  -->  
+    <input type="radio" id="Mañana" name="Turno" value="Mañana" >
+    <label for= "Mañana">Mañana</label>
+    <br>
+      <input type="radio" id="Tarde" name="Turno" value="Tarde">
+      <label for= "Tarde">Tarde</label>
+     <br>  
+   <input type="radio" id="Noche" name="Turno" value="Noche">
+     <label for= "Noche">Noche</label>
+  
+  <!--botón  -->
+     <input type="submit" value="Enviar">
+  </form>
+
+
+</body>
+</html>
